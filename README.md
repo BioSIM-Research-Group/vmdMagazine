@@ -38,3 +38,12 @@ Notes:
 (a) In this case the vmdMagazine package was extracted to the Desktop directory. In windows OS this directory can have other names. For example in portuguese it is called Ambiente de Trabalho. Therefore the command that is used should be: cd Ambiente de Trabalho.
 
 (b) The NAMD executable is optional and it is only required to run the files that run interactive simulations.
+
+## Contacts
+If you have any suggestion of new features, please contact us: nscerque@fc.up.pt
+
+## Citation
+Cerqueira, N.M., Fernandes, P.A., & Ramos, M.J. (2017). Visualizing the Microscopic World. Interdisciplinary Sciences: Computational Life Sciences, 1-6.
+
+## DOI
+http://doi.org/10.1007/s12539-017-0255-2
