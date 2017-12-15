@@ -5,7 +5,11 @@ VMDMagazine was developed with the goal of visualizing scientific information wi
 
 All the images/Movies handled by VMDMagazine can be easily built under the VMD environment and it only requires the upload of a structure, the modification of the atoms representation and save the vmd session and associated files into a custom directory. Later, the user can add a subtitle to the image/movie by the creation of a simple txt file in the same directory. All these procedures are very simple and almost every one should be capable of doing them, even those ones that have less experience with the VMD interface.
 
-
+![Image](Screenshots/image1.gif)
+![Image](Screenshots/image2.gif)
+![Image](Screenshots/image3.gif)
+![Image](Screenshots/image4.gif)
+![Image](Screenshots/image5.gif)
 
 ## Minimum Requirements
 As VMDMagazine only requires the VMD software it can be used in any platform where VMD can be used, i.e., plataforms that run the windows Os, MacOs and Linux Os.
