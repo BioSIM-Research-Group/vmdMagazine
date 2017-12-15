@@ -1,0 +1,17 @@
+-font {Helvetica 16 bold}
+-fill Green
+Beta-sheets
+
+-font {Helvetica 14 bold}
+-fill White
+
+Beta-sheets are formed from the interaction of strands of amino acids disposed with their backbones in a plane conformation. beta-strands easily interact with neighbouring beta-strands through the C=O and N−H groups of the backbone of the amino acids in the strand. The sidechains of the residues are placed in and out of the plane of the strand, perpendicular to the hydrogen bonds between the strands. The packing of the sidechains occurs more frequently between sidechains with opposite charges or with hydrophobic character.
+
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+Source:
+
+Cerqueira 2017

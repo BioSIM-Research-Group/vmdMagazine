@@ -1,0 +1,21 @@
+
+-font {Helvetica 16 bold}
+-fill Green
+Nucleossoma
+
+-font {Helvetica 14 bold}
+-fill White
+
+A molécula de DNA, que carrega a informação genética, fica no núcleo da célula, comprimida em pequenas esferas chamadas nucleossomas, que por sua vez se organizam nos cromossomas. A posição dos nucleossomas é muito importante, já que o formato dos blocos acaba por impedir o acesso de certas proteínas a trechos do código genético, interferindo na própria replicação de partes do DNA.
+
+O trabalho realizado pelos nucleossomas é no entanto paradoxal dado que requer a realização de duas funções opostas em simultâneo. Por um lado, os nucleossomas têm formar estruturas rígidas, estáveis e compactas com o ADN. Por outro lado, têm de ser suficientemente flexíveis de modo a permitir a transcrição e replicação do ADN. O meio pelo qual estes dois processos ocorrem ainda é pouco conhecido, mas pensa-se que está relacionado com o desenrolamento parcial do ADN nos nucleossomas.
+
+Na figura está representada a estrutura de um nucleossoma (código pdb 1aoi). Cada nucleossoma apresenta um núcleo central octamérico formado por 8 histonas (representado a verde) no qual se enrola o ADN em duas voltas (representado a laranja).
+
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+Source:
+www.rcsb.org

@@ -1,0 +1,55 @@
+#### HOW TO USE
+#
+# Below there is a list of commands that can be used to create animations.
+# If more than one command can be used. In these cases the animation will proceed in a sequential manner.
+# More advanced users can use  this file to create more advanced scripts.
+#
+
+#### Animation ROLL #################################################################################
+#
+# USAGE : VBox::Roll times steps yangle xangle
+#
+#	times  - number of times to animate the sequence  
+#	steps  - number of frames per complete sequence
+#	yangle - Y-axis arc angle to sweep over
+#	xangle - X-axis arc angle to sweep over (yangle / 2.0 or so is good)
+#
+# EXAMPLE: VBox::Roll 500 4000 45 45
+#
+
+#### Animation ROTATE AXIS ###########################################################################
+#
+# USAGE: VBox::TranslateAxis times vec deg
+#
+#	times - number of times to animate the sequence
+#	vec   - vector where the translation shoul dtake place
+#	deg   -	degree od the translation
+#	
+# EXAMPLE: VBox::TranslateAxis 5000 {1 0 0} 2
+#
+
+#### Animation ROCK ##################################################################################
+#
+# USAGE : rock axis by degree
+#
+#        axis   - axis to rotate (x, y or z)
+#        degree - how many degrees are rotated in each cyle 
+#
+# EXAMPLE : VBox::RockAxis y 0.2
+#
+
+#### Animation MOVIE #################################################################################
+#
+# USAGE : movie file time 
+#
+#        file - file contaning the viewpoints (generated with the vmd plug-in visual change render
+#        time - Total time of the animation 
+#
+# EXAMPLE 1 : VBox::Movie movie.txt 20
+#
+
+
+#### COMMAND TO USE
+VBox::RockAxis y 0.2
+
+

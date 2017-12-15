@@ -1,0 +1,73 @@
+#### HOW TO USE
+#
+# Below there is a list of commands that can be used to create animations.
+# If more than one command can be used. In these cases the animation will proceed in a sequential manner.
+# More advanced users can use  this file to create more advanced scripts.
+#
+
+#### Animation ROLL #################################################################################
+#
+# USAGE : VBox::Roll times steps yangle xangle
+#
+#	times  - number of times to animate the sequence  
+#	steps  - number of frames per complete sequence
+#	yangle - Y-axis arc angle to sweep over
+#	xangle - X-axis arc angle to sweep over (yangle / 2.0 or so is good)
+#
+# EXAMPLE: VBox::Roll 500 4000 45 45
+#
+
+#### Animation ROTATE AXIS ###########################################################################
+#
+# USAGE: VBox::TranslateAxis times vec deg
+#
+#	times - number of times to animate the sequence
+#	vec   - vector where the translation shoul dtake place
+#	deg   -	degree od the translation
+#	
+# EXAMPLE: VBox::TranslateAxis 5000 {1 0 0} 2
+#
+
+#### Animation ROCK ##################################################################################
+#
+# USAGE : rock axis by degree
+#
+#        axis   - axis to rotate (x, y or z)
+#        degree - how many degrees are rotated in each cyle 
+#
+# EXAMPLE : VBox::RockAxis y 0.2
+#
+
+#### Animation MOVIE #################################################################################
+#
+# USAGE : movie file time 
+#
+#        file - file contaning the viewpoints (generated with the vmd plug-in visual change render
+#        time - Total time of the animation 
+#
+# EXAMPLE 1 : VBox::Movie movie.txt 20
+#
+
+$VBox::topGui.frame1.c1 itemconfigure movie -text  Anim
+$VBox::topGui.frame1.c1 itemconfigure movie -fill magenta
+
+# Go to point
+
+VBox::movie "{{1 0 0 -72.3569} {0 1 0 -16.7772} {0 0 1 -36.6834} {0 0 0 1}} {{-0.252756 0.774286 -0.580165 0} {-0.947645 -0.077178 0.309852 0} {0.195138 0.628109 0.753257 0} {0 0 0 1}} {{0.0398207 0 0 0} {0 0.0398207 0 0} {0 0 0.0398207 0} {0 0 0 1}} {{1 0 0 -0.64} {0 1 0 0.03} {0 0 1 0} {0 0 0 1}}"
+
+# Viewchange render
+VBox::movie "{{1 0 0 -73.66} {0 1 0 -16.336} {0 0 1 -35.6992} {0 0 0 1}} {{0.40125 0.746754 -0.530427 0} {-0.90503 0.233999 -0.355191 0} {-0.141123 0.622574 0.76973 0} {0 0 0 1}} {{0.128054 0 0 0} {0 0.128054 0 0} {0 0 0.128054 0} {0 0 0 1}} {{1 0 0 0.154943} {0 1 0 -0.103877} {0 0 1 0.623355} {0 0 0 1}}"
+
+# animate PDBs
+
+display update
+animate delete beg 0 end 0 0
+animate style rock
+animate speed 1.0
+animate forward
+#set VBox::timeAdd 30
+
+
+#rock y by 0.4 140
+#VBox::Roll 500 4000 25 25
+

@@ -1,0 +1,20 @@
+-font {Helvetica 14 bold}
+-fill Green
+
+Beta Hairpins
+
+-font {Helvetica 14 bold}
+-fill White
+
+A beta-hairpin is a special case of a turn, in which the direction of the protein backbone reverses and the flanking secondary structure elements interact.
+
+For example, in the image the beta hairpin connects two antiparallel β-strands.
+
+Beta hairpins may be classified according to the number of residues that make up the turn - that is, that are not part of the flanking β-strands. If this number is X or Y (according to two different definitions of β sheets) the β hairpin is defined as X:Y
+
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+2017 Nuno Cerqueira

@@ -1,0 +1,17 @@
+-font {Helvetica 16 bold}
+-fill Green
+Nucleosome
+
+-font {Helvetica 14 bold}
+-fill White
+
+The job of the nucleosome is paradoxical, requiring it to perform two opposite functions simultaneously. On one hand, nucleosomes must be stable, forming tight, sheltering structures that compact the DNA and keep it from harm. On the other hand, nucleosomes must be labile enough to allow the information in the DNA to be used. The method by which nucleosomes solve these opposed needs is not well understood, but may involve a partial unfolding of the DNA from around the nucleosome, one loop at a time, as the information in the DNA is read.
+
+An intact nucleosome may be viewed in the PDB entry 1aoi. The picture here shows the structure of a nucleossome  formed by eight histones (show in green) that is encircled by two loops of DNA (shown here in red).
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+Source:
+www.rcsb.org

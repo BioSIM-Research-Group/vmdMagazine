@@ -1,0 +1,20 @@
+﻿-font {Helvetica 14 bold}
+-fill Green
+Aquaporinas
+
+-font {Helvetica 14 bold}
+-fill White
+
+As aquaporinas são uma classe de proteínas que se encontra inserida na membrana celular e forma poros. Estas proteínas conduzem seletivamente as moléculas de água, para dentro e fora da célula, ao mesmo tempo que previnem a passagem de iões. As estruturas cristalográficas existentes mostram que estas proteínas são normalmente compostas por quatro subunidades proteicas que no centro foram um canal que contém moléculas de água. Estes canais são muito estreitos permitindo apenas a passagem de uma molécula de água de cada vez.
+
+A formação de canais de água nos túneis das aquaporinas poderia sugerir que estas poderiam funcionar como bombas de protões. No entanto isto não pode, nem deve, acontecer dado que levaria à destruição da membrana celular. Este processo é impedido devido à presença de dois resíduos de asparagina que se localizam bem perto do túnel e que alinham e orientam as moléculas de água de forma a impedir a migração de protões.
+
+Na imagem as moléculas de água estão representadas por esferas vermelhas e as duas asparaginas em tubos.
+
+Recentemente alguns defeitos genéticos encontrado em humanos foram associados ao mal funcionamento de algumas aquaporinas. O prémio Nobel da química em 2003 foi atribuído a Peter Agre pela descoberta das aquaporinas.
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+Gonen, T.; Walz, T., The structure of aquaporins. Quarterly Reviews of Biophysics 2006, 39 (4), 361-396.

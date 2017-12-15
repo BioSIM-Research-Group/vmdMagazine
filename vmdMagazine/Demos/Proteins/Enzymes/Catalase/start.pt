@@ -1,0 +1,25 @@
+
+-font {Helvetica 16 bold}
+-fill Green
+Catalase
+
+-font {Helvetica 14 bold}
+-fill White
+
+Para que exista vida é necessário oxigénio. No entanto, o oxigénio é uma molécula muito perigosa que pode causar vários problemas aos organismos vivos se não for cuidadosamente controlada. Um dos perigos do oxigénio molecular é que este pode ser facilmente convertido em compostos reativos e perigosos para a vida, como é o caso do peróxido de hidrogénio, radicais superóxido, etc.
+
+Curiosamente, estes compostos são muitas vezes produtos decorrente do metabolismo celular em organismos expostos ao oxigénio atmosférico e caso permaneçam muito tempo dentro da célula poderão levar à destruição de várias proteínas, bem como há degradação das próprias moléculas de DNA. Muitas teorias, ainda polémicas, sugerem que este tipo de degradação oxidativa do DNA possa estar relacionado com a idade e o envelhecimento. 
+
+Felizmente as células possuem várias proteínas que convertem estes compostos nocivos à célula em compostos inertes. Uma destas proteínas é a Catalase (representada na figura) que converte o peróxido de hidrogénio em água e oxigénio gasoso. Catalases são algumas das enzimas mais eficazes encontrados em células, sendo cada molécula de catalase decompor 40 000 000 moléculas de peróxido de hidrogénio por segundo. Isto torna assim a catalase numa das mais importantes enzimas usadas para a desintoxicação da célula. 
+
+Na figura ao lado está representada a estrutura da catalase (código pdb 8cat). Nesta figura é possível visualizar o centro ativo desta enzima que é composto por um grupo hemo que contém um ião de Ferro na sua estrutura.
+
+A catalase é usada na indústria têxtil para a remoção de peróxidos do leite antes da confeção de queijos e também na desinfeção dos invólucros utilizados para armazenar alimentos. Encontra-se também em alguns produtos de limpeza de lentes de contacto, agindo como agente antibacteriano. Mais recentemente, a catalase tem sido usada em cosmética, em máscaras de beleza combinando a enzima e peróxido de hidrogénio para aumentar a oxigenação celular das camadas superiores da epiderme.
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+Source:
+
+Goodsell DS (2004-09-01). "Catalase". Molecule of the Month. RCSB Protein Data Bank. Retrieved 2007-02-11.

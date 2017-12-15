@@ -1,0 +1,15 @@
+
+-font {Helvetica 14 bold}
+-fill Green
+Dissulfide Bonds
+-font {Helvetica 14 bold}
+-fill White
+
+A disulfide bond, also called an S-S bond, or disulfide bridge, is a covalent bond derived from two thiol groups. In biochemistry, the terminology R-S-S-R connectivity is commonly used to describe the overall linkages. 
+
+In proteins, these bonds form between the thiol groups of two cysteine amino acids.   These bonds are responsible for the stabilizing the globular structure and are the strongest type of bond that a protein can possess and are one of the major forces responsible for holding proteins in their respective conformations, and therefore have an important role in protein folding and stability.
+
+-fill White
+-font {Helvetica 12}
+-fill White
+source: https://en.wikibooks.org

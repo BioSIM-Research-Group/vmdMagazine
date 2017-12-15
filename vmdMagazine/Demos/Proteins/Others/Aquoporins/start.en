@@ -1,0 +1,20 @@
+-font {Helvetica 14 bold}
+-fill Green
+Aquaporin
+
+-font {Helvetica 14 bold}
+-fill White
+
+Aquaporins are proteins embedded in the cell membrane of biological cells that form pores and regulate the flow of water. These proteins are very important because they have specific characteristics that allow them to be impermeable to proton permeation despite their very fast water conduction. The available X-ray structures of aquaporins reveal that in the middle of the protein there are channels that are populated with water molecules.
+
+These channels are very narrow and constrain the access of the water molecules, only allowing that one row of water molecules to pass through the channel. Interestingly, this could lead to the idea that this net of water molecules could easily act as a proton wire to conduct protons but, this cannot occur as it would damage the membrane.
+
+The amino acid residues lining the constriction of these water channels are mainly hydrophobic with the exception of two asparagine residues. Recent results have shown that the role of these residues is very important because they help to line up and orient the water molecules in such a way to prevent the proton transfer. In the image the water molecules are represented as red spheres and the asparagine residues that are important for the reorientation of the water molecules are depicted in sticks.
+
+The genetic defects involving aquaporin genes have been associated with several human diseases. The 2003 Nobel Prize in Chemistry was awarded to Peter Agre for the discovery of aquaporins.
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+Gonen, T.; Walz, T., The structure of aquaporins. Quarterly Reviews of Biophysics 2006, 39 (4), 361-396.

@@ -1,0 +1,88 @@
+REMARK   This PDB file was created by CS Chem3D.
+HETATM    1  C           1      -4.524   0.642   1.608                       C
+HETATM    2  C           1      -3.687   0.196   0.396                       C
+HETATM    3  C           1      -3.742   1.232  -0.742                       C
+HETATM    4  C           1      -5.212   1.718  -0.921                       C
+HETATM    5  C           1      -5.892   1.219   1.188                       C
+HETATM    6  C           1      -6.675   0.214   0.318                       C
+HETATM    7  C           1      -6.199   0.540  -1.113                       C
+HETATM    8  N           1      -5.767   2.336   0.270                       N
+HETATM    9  C           1      -2.737   2.354  -1.100                       C
+HETATM   10  H           1      -4.216  -0.737   0.105                       H
+HETATM   11  O           1      -2.851   2.855  -2.204                       O
+HETATM   12  C           1      -2.526  -4.638  -1.697                       C
+HETATM   13  C           1      -1.531  -3.686   0.178                       C
+HETATM   14  O           1      -2.396  -0.149   0.777                       O
+HETATM   15  C           1      -2.849  -2.394  -1.174                       C
+HETATM   16  C           1      -1.376   2.378   0.991                       C
+HETATM   17  O           1      -0.986  -1.564   1.635                       O
+HETATM   18  C           1      -3.072  -3.448  -1.976                       C
+HETATM   19  C           1      -1.746  -4.749  -0.614                       C
+HETATM   20  H           1      -5.304   2.416  -1.787                       H
+HETATM   21  H           1      -3.552   0.601  -1.652                       H
+HETATM   22  H           1      -3.996   1.384   2.242                       H
+HETATM   23  H           1      -4.691  -0.228   2.288                       H
+HETATM   24  H           1      -7.771   0.407   0.408                       H
+HETATM   25  H           1      -6.480   1.513   2.091                       H
+HETATM   26  C           1      -2.091  -2.478  -0.062                       C
+HETATM   27  C           1      -1.844  -1.417   0.778                       C
+HETATM   28  C           1      -5.067   3.499   0.769                       C
+HETATM   29  O           1      -1.778   2.848  -0.264                       O
+HETATM   30  H           1      -6.499  -0.844   0.611                       H
+HETATM   31  H           1      -5.746  -0.333  -1.632                       H
+HETATM   32  H           1      -7.069   0.868  -1.731                       H
+HETATM   33  H           1      -5.598   3.916   1.655                       H
+HETATM   34  H           1      -5.041   4.297  -0.008                       H
+HETATM   35  H           1      -4.023   3.293   1.074                       H
+HETATM   36  H           1      -3.290  -1.455  -1.522                       H
+HETATM   37  H           1      -3.691  -3.333  -2.883                       H
+HETATM   38  H           1      -2.700  -5.505  -2.356                       H
+HETATM   39  H           1      -1.279  -5.721  -0.378                       H
+HETATM   40  H           1      -0.880  -3.877   1.047                       H
+HETATM   41  H           1      -0.799   3.196   1.480                       H
+HETATM   42  H           1      -2.233   2.164   1.650                       H
+HETATM   43  H           1      -0.675   1.524   0.873                       H
+CONECT    1    2    5   22   23
+CONECT    2    3    1   14   10
+CONECT    3    4    2    9   21
+CONECT    4    3    7    8   20
+CONECT    5    1    6    8   25
+CONECT    6    5    7   24   30
+CONECT    7    4    6   31   32
+CONECT    8    4    5   28
+CONECT    9    3   11   29
+CONECT   10    2
+CONECT   11    9
+CONECT   12   18   19   38
+CONECT   13   26   19   40
+CONECT   14    2   27
+CONECT   15   26   18   36
+CONECT   16   29   41   42   43
+CONECT   17   27
+CONECT   18   15   12   37
+CONECT   19   12   13   39
+CONECT   20    4
+CONECT   21    3
+CONECT   22    1
+CONECT   23    1
+CONECT   24    6
+CONECT   25    5
+CONECT   26   27   15   13
+CONECT   27   14   26   17
+CONECT   28    8   33   34   35
+CONECT   29    9   16
+CONECT   30    6
+CONECT   31    7
+CONECT   32    7
+CONECT   33   28
+CONECT   34   28
+CONECT   35   28
+CONECT   36   15
+CONECT   37   18
+CONECT   38   12
+CONECT   39   19
+CONECT   40   13
+CONECT   41   16
+CONECT   42   16
+CONECT   43   16
+END

@@ -1,0 +1,28 @@
+
+## Change the logo and color on the window
+VBox::MoviePlay
+
+## Add time
+set VBox::timeAdd 30
+
+# get hostname and port
+set hostname [exec hostname]
+set port 6789
+
+## connect to any existant
+set rc [catch { imd connect [string trim $hostname] $port } msg]
+# Kill any available IMD
+set rc [catch { imd kill } msg]
+after 200
+
+
+###################
+
+
+# Run NAMD
+set a [catch {exec $VBox::namdPath alanin.namd &} msg]
+
+after 200
+# Connect IMD
+ set rc [catch { imd connect [string trim $hostname] $port } msg]
+

@@ -1,0 +1,19 @@
+-font {Helvetica 14 bold}
+-fill Green
+Mecanismo do "Sulfur Shift"
+
+-font {Helvetica 14 bold}
+-fill White
+
+Nesta imagem está ilustrado o estado de transição correspondente ao primeiro passo do mecanismo catalítico da enzima formato desidrogenase.
+
+Este passo é denominado por mecanismo do "Sulfur Shift" e é caracterizado pelo deslocamento de um resíduo de seleno-cisteína (ou cisteína na enzima nitato reductase) da esfera de coordenação de um ião de molibdénio localizado no interior da estrutura proteína da enzima formato desidrogenase. Este movimento permite que  o substrato se ligue diretamente ao ião metálico favorecendo assim o processo catalítico. Este mecanismo é importante dado que no estado inicial o complexo metálico encontra-se numa conformação hexacoordenada que impossibilita a ligação do substrato ao centro metálico.
+
+O mecanismo do "Sulfur Shift" permite assim um mecanismo eficaz para a ligação do substrato ao centro metálico ao mesmo tempo que mantém um número de coordenação em volta do ião de molibdénio constante ao longo do ciclo catalítico.
+Este mecanismo é muito semelhante ao mecanismo de "Carboxylate Shift" que pode ser encontrado em outras enzimas.
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+2012 Nuno Sousa Cerqueira

@@ -1,0 +1,15 @@
+-font {Helvetica 14 bold}
+-fill Green
+Enzyme FarnesilTransferase
+
+-font {Helvetica 14 bold}
+-fill White
+
+The protein farnesyltransferase (FTase) is a zinc enzyme composed by two protein subunits that have been targeted for cancer treatment, with hundreds of patented inhibitors. A better understanding of the structure / activity of this enzyme may lead to the development of new inhibitors that are more specific for this enzyme.
+
+The figure illustrates the amino acid residues which interaction is more important for the association of the two subunits of this enzyme.
+
+-fill White
+-font {Helvetica 12}
+-fill White
+2011 Sérgio Sousa

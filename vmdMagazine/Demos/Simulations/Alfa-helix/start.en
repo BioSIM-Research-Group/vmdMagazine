@@ -1,0 +1,21 @@
+
+-font {Helvetica 14 bold}
+-fill Green
+Alfa-Helix
+-font {Helvetica 14 bold}
+-fill White
+
+An alfa-helix is a right-handed coil of amino-acid residues on a polypeptide chain, typically ranging between 4 and 40 residues.
+
+This coil is held together by hydrogen bonds between the oxygen of C=O on top coil and the hydrogen of N-H on the bottom coil. Such a hydrogen bond is formed exactly every 4 amino acid residues, and every complete turn of the helix is only 3.6 amino acid residues. This regular pattern gives the α-helix very definite features with regards to the thickness of the coil and the length of each complete turn along the helix axis.
+
+The structural integrity of an α-helix is in part dependent on correct steric configuration. Amino acids whose R-groups are too large (tryptophan, tyrosine) or too small (glycine) destabilize α-helices. Proline also destabilizes α-helices because of its irregular geometry; its R-group bonds back to the nitrogen of the amide group, which causes steric hindrance. In addition, the lack of a hydrogen on Proline's nitrogen prevents it from participating in hydrogen bonding. Another factor affecting α-helix stability is the total dipole moment of the entire helix due to individual dipoles of the C=O groups involved in hydrogen bonding. Stable α-helices typically end with a charged amino acid to neutralize the dipole moment.
+
+
+This animation is an interactive molecular dynamic simulation that uses the molecular dynamic software NAMD.
+
+-fill White
+-font {Helvetica 12}
+-fill White
+source: http://chemwiki.ucdavis.edu/Biological_Chemistry/Proteins/Protein_Structure
+

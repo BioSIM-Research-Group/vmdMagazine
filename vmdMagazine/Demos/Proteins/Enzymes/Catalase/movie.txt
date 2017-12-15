@@ -1,0 +1,45 @@
+#This file contains viewpoints for the VMD viewchangerender plugin.
+#Type 'source /Users/nuno/Documents/Dropbox/Code/VMDplugins/vmdMagazine/Development/version1.2/Demos/Enzymes/Catalase/movie.txt' from the VMD command window to load these viewpoints.
+
+proc viewchangerender_restore_my_state {} {
+  variable ::VCR::viewpoints
+
+  set ::VCR::viewpoints(3,1) { {{1 0 0 16.968} {0 1 0 3.504} {0 0 1 -15.36} {0 0 0 1}} }
+  set ::VCR::viewpoints(2,2) { {{0.034008 0 0 0} {0 0.034008 0 0} {0 0 0.034008 0} {0 0 0 1}} }
+  set ::VCR::viewpoints(1,3) {  {{1 0 0 0} {0 1 0 0} {0 0 1 0} {0 0 0 1}}  }
+  set ::VCR::viewpoints(3,2) { {{0.175334 0 0 0} {0 0.175334 0 0} {0 0 0.175334 0} {0 0 0 1}} }
+  set ::VCR::viewpoints(2,3) { {{1 0 0 0} {0 1 0 0} {0 0 1 0} {0 0 0 1}} }
+  set ::VCR::viewpoints(1,4) {  0  }
+  set ::VCR::viewpoints(3,3) { {{1 0 0 -0.114216} {0 1 0 0.0608617} {0 0 1 -0.0873723} {0 0 0 1}} }
+  set ::VCR::viewpoints(2,4) { 0 }
+  set ::VCR::viewpoints(3,4) { 0 }
+  set ::VCR::viewpoints(1,0) {  {{-0.993533 0.112343 -0.0158102 0} {0.112237 0.993642 0.00758249 0} {0.0165611 0.00575927 -0.999833 0} {0 0 0 1}}  }
+  set ::VCR::viewpoints(2,0) { {{0.953279 -0.278201 0.117597 0} {0.298534 0.808812 -0.506643 0} {0.0458359 0.518097 0.854077 0} {0 0 0 1}} }
+  set ::VCR::viewpoints(1,1) {  {{1 0 0 -0.00130825} {0 1 0 0.0015488} {0 0 1 -18.352} {0 0 0 1}}  }
+  set ::VCR::viewpoints(3,0) { {{0.949673 -0.285227 0.129359 0} {0.310842 0.807963 -0.500559 0} {0.0382571 0.515596 0.855962 0} {0 0 0 1}} }
+  set ::VCR::viewpoints(2,1) { {{1 0 0 -0.00130825} {0 1 0 0.0015488} {0 0 1 -18.352} {0 0 0 1}} }
+  set ::VCR::viewpoints(1,2) {  {{0.0340082 0 0 0} {0 0.0340082 0 0} {0 0 0.0340082 0} {0 0 0 1}}  }
+  set ::VCR::representations(1,8cat) [list Cartoon_2.200000_17.000000_7.000000-chain_A-ColorID_23-AOChalky CPK_1.200000_0.000000_10.000000_10.000000-resname_HEM_-Name-HardPlastic Bonds_0.200000_5.000000-resname_HEM_-Name-EdgyShiny PaperChain_2.660000_6.000000-resname_HEM_-ColorID_1-Glossy VDW_0.400000_12.000000-name_FE-ColorID_7-EdgyShiny QuickSurf_1.000000_0.500000_1.000000_2.000000-resname_HEM_-ColorID_8-Transparent Cartoon_1.600000_17.000000_7.000000-chain_B-ColorID_4-AOChalky ]
+  set ::VCR::representations(2,8cat) [list Cartoon_2.200000_17.000000_7.000000-chain_A-ColorID_23-AOChalky CPK_1.200000_0.000000_10.000000_10.000000-resname_HEM_-Name-HardPlastic Bonds_0.200000_5.000000-resname_HEM_-Name-EdgyShiny PaperChain_2.660000_6.000000-resname_HEM_-ColorID_1-Glossy VDW_0.400000_12.000000-name_FE-ColorID_7-EdgyShiny QuickSurf_1.000000_0.500000_1.000000_2.000000-resname_HEM_-ColorID_8-Transparent Cartoon_1.600000_17.000000_7.000000-chain_B-ColorID_4-AOChalky ]
+  set ::VCR::representations(3,8cat) [list Cartoon_2.200000_17.000000_7.000000-chain_A-ColorID_23-AOChalky CPK_1.200000_0.000000_10.000000_10.000000-resname_HEM_-Name-HardPlastic Bonds_0.200000_5.000000-resname_HEM_-Name-EdgyShiny PaperChain_2.660000_6.000000-resname_HEM_-ColorID_1-Glossy VDW_0.400000_12.000000-name_FE-ColorID_7-EdgyShiny QuickSurf_1.000000_0.500000_1.000000_2.000000-resname_HEM_-ColorID_8-Transparent Cartoon_1.600000_17.000000_7.000000-chain_B-ColorID_4-AOChalky ]
+  set ::VCR::movieList "1 2 3"
+  set ::VCR::movieTimeList "0.5 0.5 0.0"
+  set ::VCR::movieTime 1.0
+  set ::VCR::movieDuration 50.00 
+  ::VCR::calctimescale 0
+  global PrevScreenSize
+  set PrevScreenSize [display get size]
+  proc RestoreScreenSize {} { global PrevScreenSize; display resize [lindex $PrevScreenSize 0] [lindex $PrevScreenSize 1] }
+  display resize 882 751
+  if { [parallel noderank] == 0 } {
+    puts "Loaded viewchangerender viewpoints file /Users/nuno/Documents/Dropbox/Code/VMDplugins/vmdMagazine/Development/version1.2/Demos/Enzymes/Catalase/movie.txt "
+    puts "Note: The screen size has been changed to that stored in the viewpoints file."
+    puts "To restore it to its previous size type this into the Tcl console:\n  RestoreScreenSize"
+  }
+  return
+}
+
+
+viewchangerender_restore_my_state
+
+

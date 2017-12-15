@@ -1,0 +1,23 @@
+-font {Helvetica 16 bold}
+-fill Green
+Catalase
+
+-font {Helvetica 14 bold}
+-fill White
+
+Living with oxygen is dangerous. We rely on oxygen to power our cells, but oxygen is a reactive molecule that can cause serious problems if not carefully controlled. One of the dangers of oxygen is that it is easily converted into other reactive compounds. Inside our cells, electrons are continually shuttled from site to site by carrier molecules, such as carriers derived from riboflavin and niacin. If oxygen runs into one of these carrier molecules, the electron may be accidentally transferred to it. This converts oxygen into dangerous compounds such as superoxide radicals and hydrogen peroxide, which can attack the delicate sulfur atoms and metal ions in proteins. To make things even worse, free iron ions in the cell occasionally convert hydrogen peroxide into hydroxyl radicals. These deadly molecules attack and mutate DNA. One theory, still controversial, is that this type of oxidative damage accumulates over the years of our life, causing us to age. 
+
+Fortunately, cells make a variety of antioxidant enzymes to fight the dangerous side-effects of life with oxygen. Two important players are superoxide dismutase, which converts superoxide radicals into hydrogen peroxide, and catalase, which converts hydrogen peroxide into water and oxygen gas. The importance of these enzymes is demonstrated by their prevalence, ranging from about 0.1% of the protein in an Escherichia coli cell to upwards of a quarter of the protein in susceptible cell types. These many catalase molecules patrol the cell, counteracting the steady production of hydrogen peroxide and keeping it at a safe level.
+
+Catalases are some of the most efficient enzymes found in cells. Each catalase molecule can decompose millions of hydrogen peroxide molecules every second. The cow catalase shown here (PDB entry 8cat) and our own catalases use an iron ion to assist in this speedy reaction. The iron ion, shown in green, is gripped at the center of a disk-shaped heme group.
+
+Catalase is used in the food industry for removing hydrogen peroxide from milk prior to cheese production or in food wrappers where it prevents food from oxidizing.  Catalase is also used in the textile industry, removing hydrogen peroxide from fabrics to make sure the material is peroxide-free. Catalases are also used in contact lens hygiene - a few lens-cleaning products disinfect the lens using a hydrogen peroxide solution; a solution containing catalase is then used to decompose the hydrogen peroxide before the lens is used again. Recently, catalase has also begun to be used in the aesthetics industry. Several mask treatments combine the enzyme with hydrogen peroxide on the face with the intent of increasing cellular oxygenation in the upper layers of the epidermis.
+
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+Source:
+
+Goodsell DS (2004-09-01). "Catalase". Molecule of the Month. RCSB Protein Data Bank. Retrieved 2007-02-11.

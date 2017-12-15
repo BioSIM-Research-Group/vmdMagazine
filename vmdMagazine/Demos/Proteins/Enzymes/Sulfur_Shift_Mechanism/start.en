@@ -1,0 +1,18 @@
+-font {Helvetica 14 bold}
+-fill Green
+Sulfur Shift Mechanism
+
+-font {Helvetica 14 bold}
+-fill White
+
+This image displays the sulfur shift mechanism of the enzyme formate dehydrogenase. 
+
+The sulfur-shift is characterized by the displacement of the coordinating cysteine (or SeCys in Fdh) side chain to a second shell of the Mo-coordination sphere, in order to enable a free coordination position for substrate binding. The hexa-coordinated Mo ion found in the as-isolated state cannot bind directly any exogenous ligand (substrate or inhibitors), while the penta-coordinated ion attained upon sulfur-shift has a free binding site for direct coordination to the metal ion.
+
+This rearrangement provides an efficient mechanism to maintain a constant coordination number throughout an entire catalytic pathway. This is the first time that such type of mechanism is observed and it has many similarities to the carboxylate-shift that is observed in other enzymes.
+
+-fill White
+-font {Helvetica 12}
+-fill White
+
+2012 Nuno Sousa Cerqueira
