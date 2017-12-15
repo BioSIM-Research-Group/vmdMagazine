@@ -22,12 +22,12 @@ Install the VMD software ( if you haven't installed it yet).
 Extract vmdMagazine.zip file to your Desktop directory.
 Open VMD and open the tk console that can be found in the Extensions menu (last item).
 In the tk console go to the directory where the vmdMagazine was extracted and run the installer. Then enter the following commands:
-'''
-   cd                     <Enter>
+```
+   cd                     <Enter>
    cd Desktop             <Enter>     Note: (a)
    cd vmdMagazine_v1.0    <Enter>
-   play install.tcl       <Enter>
-'''
+   play install.tcl       <Enter>
+```
 Follow the instructions of the installer. (b)
 When the installation is complete, exit the VMD program and open it again.
 Once this procedure is complete the vmdMagazine plugin can be found at the VMD extensions menu (CompBioComp»vmdMagazine).
