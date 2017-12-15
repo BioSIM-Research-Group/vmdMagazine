@@ -1,0 +1,8 @@
+####vmdStore#### START vmdMagazine
+## Version XXversionXX
+variable VBox_directory "$::vmdStorePath/plugins/vmdMagazine/Demos"
+#Please, choose the directory where NAMD is installed.
+variable VBox_namd none
+lappend auto_path "$::vmdStorePath/plugins/vmdMagazine"
+vmd_install_extension VBox "VBox::vBox" "PortoBioComp/VMD Magazine" 
+####vmdStore#### END vmdMagazine
